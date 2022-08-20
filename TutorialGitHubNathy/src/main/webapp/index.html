@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="estilo.css" rel="stylesheet">
+<meta charset="UTF-8">
+<title>Tutorial de como usar o Git e o GitHub</title>
+</head>
+<body>
+	<h1>Tutorial de como usar o Git e o GitHub</h1>
+
+	<h2>Passo 1: Criação da conta no GitHub</h2>
+	<h3>Acesse o site github.com e crie sua conta normalmente, é bem
+		simples.</h3>
+
+	<h3>Para criar um novo repositório no GitHub, clique na sua foto
+		de perfil, em "Your profile" depois em "Repositories" e no botão verde
+		"New".</h3>
+
+	<h3>Crie seu repositório normalmente e lembre-se de deixar ele
+		público para não precisar usar um token de acesso.</h3>
+
+	<h2>Passo 2: Criação do Projeto Maven</h2>
+	<h3>Entre no site spring.io/quickstart</h3>
+	<h3>Crie um projeto "web" usando o start.spring.io.</h3>
+
+	<h3>As configurações são:</h3>
+	<li>Language Java</li>
+	<li>Spring Boot 2.7.2</li>
+	<li>Packaging Jar</li>
+	<li>Java 11</li>
+
+	<h3>Em seguida clique em "Generate".</h3>
+	<h3>Baixe o arquivo "demo.zip" e o descompacte em uma pasta de sua
+		escolha. Lembre-se de deixar essa pasta de fácil acesso.</h3>
+
+	<h3>Importe o arquivo "demo" no eclipse da seguinte maneira:</h3>
+	<li>Import > Maven > Existing Maven Projects > Browse > pasta do
+		arquivo "demo" > arquivo "demo" descompactado.</li>
+
+	<h3>Arquivo importado, volte ao site spring.io/quickstart e copie
+		o código do step 2. Em seguida cole-o no seu arquivo
+		"DemoApplication.java".</h3>
+
+	<h3>Teste seu projeto clicando em "DemoApplication.java" com o
+		botão direito e selecione "Run as" e depois "Java Application".</h3>
+	<h3>Veja a execução do projeto no console.</h3>
+	<h3>Após seguir todos os passos acesse a URL
+		https://localhost:8080/hello e veja sua página web "Hello World".</h3>
+
+	<h2>Passo 3: Envio de Projetos ao GitHub com o Git</h2>
+	<h3>No Eclipse, clique em "Window" > "Show View" > "Other..." >
+		"Git Staging" > " Open". Depois clique em "Window" > "Show View" >
+		"Other..." > "Git Repositories" > " Open". Entre no GitHub e copie o
+		endereço do repositório onde você quer salvar seu projeto. Para isso
+		clique no repositório desejado, em "Code" e o endereço aparecerá.</h3>
+
+	<h3>Clique no projeto com o botão direito, em seguida clique em
+		"Team" > "Share Project". Em "Repository" coloque o nome do seu
+		repósitório.</h3>
+
+	<h3>Selecione seu projeto e na aba "Unstaged Changes" clique no +
+		para enviar as alterações do projeto. Em "Commit Message" coloque o
+		nome do Commit, pode ser "criação do projeto", "primeiro commit", você
+		escolhe. Para enviar o projeto ao GitHub, clique em "Commit and
+		Push..." e coloque o endereço do seu repositório no GitHub que você
+		copiou no início do passo 3, cole em "URI" e clique em "Preview" >
+		"Push".</h3>
+
+	<h3>Projeto enviado ao GitHub com sucesso!</h3>
+
+	<h5>Web Design & Project by Nathália Gabrielle Vieira Guimarães.</h5>
+</body>
+</html>
